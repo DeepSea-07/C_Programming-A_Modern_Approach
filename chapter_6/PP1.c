@@ -2,7 +2,7 @@
 
 int main(void){
 
-    float number , largest ;
+    float number , largest = 0  ;
 
     do{
         printf("Enter a number : ");

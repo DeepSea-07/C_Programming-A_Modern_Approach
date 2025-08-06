@@ -15,5 +15,5 @@ int main(void)
 
     printf("Item \t\t\t Unit \t\t\t Purchase\n");
     printf("     \t\t\t Price\t\t\t Date\n");
-    printf("%d \t\t\t $%7.2f  \t\t %d/%d/%d\n",item_number,unit_price,mm,dd,yy);
+    printf("%-4d \t\t\t $%7.2f \t\t%.2d/%.2d/%d\n",item_number,unit_price,mm,dd,yy);
 }

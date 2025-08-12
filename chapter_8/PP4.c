@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define N ((int) sizeof(a)/sizeof(a[0])) 
 
 int main(void){
     int number;
@@ -9,7 +10,7 @@ int main(void){
 
     int a[number], i;
 
-    #define N ((int) sizeof(a)/sizeof(a[0])) 
+    
 
     printf("Enter %ld numbers: ", N );
 
